@@ -129,6 +129,10 @@ M.bufferline = function()
 
    map("n", m.next_buffer, ":BufferLineCycleNext <CR>")
    map("n", m.prev_buffer, ":BufferLineCyclePrev <CR>")
+   map("n", m.moveLeft, "<C-w>h")
+   map("n", m.moveRight, "<C-w>l")
+   map("n", m.moveUp, "<C-w>k")
+   map("n", m.moveDown, "<C-w>j")
 end
 
 M.chadsheet = function()
